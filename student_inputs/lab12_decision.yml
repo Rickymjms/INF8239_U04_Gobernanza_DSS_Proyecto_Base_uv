@@ -1,6 +1,11 @@
-priority_harm: REPLACE
-primary_metric: REPLACE
-tolerance: REPLACE
-evidence: REPLACE
-limitation: REPLACE
-recommendation: REPLACE
+priority_harm: "Clasificacion injusta de casos territoriales que pueda generar intervenciones innecesarias debido a diferencias en las tasas de falsos positivos entre grupos protegidos."
+
+primary_metric: "false_positive_rate_difference"
+
+tolerance: 0.05
+
+evidence: "En el conjunto de prueba de 160 registros, Logistic obtuvo accuracy de 0.71875 y una brecha FPR de 0.1250 entre G1 y G2. Tree obtuvo accuracy de 0.70625 y una brecha FPR de 0.16827. Ambos superan la tolerancia propuesta de 0.05. Logistic presenta menor brecha FPR, menor brecha de seleccion y mejor accuracy."
+
+limitation: "Los datos son sinteticos y el conjunto de prueba contiene solamente 160 registros, distribuidos en 101 para G1 y 59 para G2. Los subgrupos interseccionales tienen muestras mas pequenas. No se ha demostrado la estabilidad estadistica de las brechas ni la efectividad de medidas de mitigacion."
+
+recommendation: "REVIEW. Mantener Logistic como modelo de referencia academica por su mejor rendimiento y menores brechas observadas. No autorizar despliegue real mientras la brecha FPR supere la tolerancia propuesta. Evaluar las causas de las diferencias, aplicar medidas de mitigacion y repetir la auditoria antes de reconsiderar el despliegue."
