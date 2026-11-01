@@ -1,9 +1,9 @@
 id,scenario,affected,likelihood_1_4,impact_1_4,control,owner,evidence,residual
-R01,REPLACE,REPLACE,2,4,REPLACE,REPLACE,REPLACE,high
-R02,REPLACE,REPLACE,3,3,REPLACE,REPLACE,REPLACE,medium
-R03,REPLACE,REPLACE,2,3,REPLACE,REPLACE,REPLACE,medium
-R04,REPLACE,REPLACE,1,4,REPLACE,REPLACE,REPLACE,medium
-R05,REPLACE,REPLACE,2,2,REPLACE,REPLACE,REPLACE,low
-R06,REPLACE,REPLACE,3,2,REPLACE,REPLACE,REPLACE,medium
-R07,REPLACE,REPLACE,2,4,REPLACE,REPLACE,REPLACE,high
-R08,REPLACE,REPLACE,1,3,REPLACE,REPLACE,REPLACE,low
+R01,Sesgo territorial que genera clasificaciones injustas,Grupos territoriales representados,2,4,Auditar resultados por subgrupos y revisar diferencias injustificadas,Data team,Informe de auditoria por subgrupos,high
+R02,Recomendaciones incorrectas por datos incompletos o inconsistentes,Operadores y grupos territoriales,3,3,Validar integridad y consistencia de datos antes del analisis,Data team,Reporte de calidad de datos,medium
+R03,Dependencia excesiva del operador en recomendaciones automaticas,Operadores y personas potencialmente afectadas,2,3,Exigir revision humana y justificacion de decisiones,Operator,Registro de decisiones revisadas,medium
+R04,Divulgacion no autorizada de informacion territorial,Grupos territoriales representados,1,4,Restringir accesos y prohibir incorporar datos personales reales,Institutional owner,Registro de accesos y politica de privacidad,medium
+R05,Resultados mal interpretados por falta de explicabilidad,Operadores y responsables institucionales,2,2,Documentar variables y limitaciones del modelo,Data team,Documentacion tecnica del modelo,low
+R06,Uso del sistema fuera de su finalidad academica,Personas y territorios reales,3,2,Establecer restricciones de uso y autorizacion institucional,Institutional owner,Declaracion de usos prohibidos,medium
+R07,Ausencia de mecanismos efectivos para cuestionar decisiones,Personas potencialmente afectadas,2,4,Establecer mecanismo de apelacion y revision humana,Institutional owner,Procedimiento de apelacion y registro de revisiones,high
+R08,Falta de trazabilidad de cambios y decisiones del sistema,Operadores y responsables institucionales,1,3,Registrar versiones y decisiones mediante Git,Data team,Historial de cambios y registro de decisiones,low

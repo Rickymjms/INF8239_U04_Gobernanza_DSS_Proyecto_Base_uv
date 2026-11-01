@@ -1,9 +1,18 @@
-purpose: REPLACE
-assisted_decision: REPLACE
-users: REPLACE
-affected_population: REPLACE
-owner: REPLACE
-non_predictive_alternative: REPLACE
-out_of_scope_use: REPLACE
-withdrawal_condition: REPLACE
-appeal_mechanism: REPLACE
+
+purpose: "Evaluar de manera académica un sistema de apoyo a decisiones que identifica patrones de riesgo territorial a partir de datos sintéticos, incorporando criterios de ética, equidad y supervisión humana."
+
+assisted_decision: "Apoyar la priorización de casos territoriales simulados que requieren revisión adicional, sin autorizar decisiones automáticas ni intervenciones reales."
+
+users: "Estudiantes, docentes y analistas responsables de evaluar el comportamiento y las limitaciones del sistema."
+
+affected_population: "Grupos territoriales ficticios representados en el conjunto de datos sintéticos; no se utilizan personas ni territorios reales."
+
+owner: "Equipo académico responsable del proyecto, bajo supervisión del docente de Ciencia de Datos II."
+
+non_predictive_alternative: "Aplicar una matriz de evaluación basada en criterios previamente definidos y revisión humana, sin utilizar predicciones de aprendizaje automático."
+
+out_of_scope_use: "Utilizar los resultados para clasificar personas o territorios reales, asignar recursos públicos, imponer restricciones o adoptar decisiones administrativas sin validación y autorización institucional."
+
+withdrawal_condition: "Suspender el uso del sistema si se identifican errores graves, resultados discriminatorios, incumplimiento de controles de privacidad o evidencia insuficiente para justificar sus recomendaciones."
+
+appeal_mechanism: "Permitir que un responsable humano revise, cuestione y anule las recomendaciones del sistema, documentando la evidencia utilizada y la decisión final."
