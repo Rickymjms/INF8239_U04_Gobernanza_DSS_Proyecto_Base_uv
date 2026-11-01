@@ -9,6 +9,6 @@ direct_identifiers: [name, document_number, email, phone]
 gates:
   min_recall: 0.68
   max_recall_gap: 0.16
-  max_fpr_gap: 0.16
+  max_fpr_gap: 0.05
   max_latency_ms: 500
   max_model_kb: 1024
